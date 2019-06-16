@@ -41,6 +41,18 @@ Now, You should see this screen after clicking create
 
 ![Delivery Pipeline](https://user-images.githubusercontent.com/18283745/59562632-42cb6780-902f-11e9-858d-7fbd7903cc55.png)
 
+Add a Build stage.
+
+Click the Add Stage button.
+
+Name it Build.
+
+The options for the INPUT tab should be correct by default, but we’ll list them here for completeness:
+
+![Delivery Pipeline stages](https://user-images.githubusercontent.com/18283745/59562699-23810a00-9030-11e9-848f-679b79f3fc03.png
+)
+
+
 - Click the Add a Tool button on top right corner.
 
 - Search for “Delivery Pipeline”.
@@ -49,7 +61,10 @@ Now, You should see this screen after clicking create
 
 - Name the pipeline and click Create.
 
-- Your toolchain page now should look like this:
+- Your toolchain page now should look like this.
+
+We’ll be adding two stages: a “Build” stage and a “Deploy” stage. It is while configuring these stages that we’ll be referencing the application code, the repository we forked earlier, to build and deploy.
+
 
 
 1. `git clone YOUR_REPO_URL`
