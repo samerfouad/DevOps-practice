@@ -60,10 +60,11 @@ The options for the INPUT tab should be correct by default, but we’ll list the
 
 - Your toolchain page now should look like this.
 
-![Delivery Pipeline stages](https://user-images.githubusercontent.com/18283745/59562699-23810a00-9030-11e9-848f-679b79f3fc03.png
-)
 - We’ll be adding **two stages**: a “**Build**” stage and a “**Deploy**” stage.
 - It is while configuring these stages that we’ll be referencing the application code, the repository we forked earlier, to **build** and **deploy**.
+
+![Delivery Pipeline stages](https://user-images.githubusercontent.com/18283745/59562699-23810a00-9030-11e9-848f-679b79f3fc03.png
+)
 
 **Add a Build stage**
 
