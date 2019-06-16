@@ -22,6 +22,8 @@ Create your own custom DevOps toolchain to go from your source code to a running
 
 ![Add a Tool Button](https://user-images.githubusercontent.com/18283745/59562510-e9af0400-902d-11e9-8a6f-11fc266c3b96.png)
 
+![Github](https://user-images.githubusercontent.com/18283745/59562561-604c0180-902e-11e9-8f0e-b9a143234196.png)
+
 1. `git clone YOUR_REPO_URL`
 
 ```javascript
