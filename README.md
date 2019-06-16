@@ -98,4 +98,21 @@ Name it Deploy.
 
 The options for the INPUT tab should be correct by default, but we’ll list them here for completeness:
 
+```javascript
+"Input type": "Build artifacts"
+"Stage": "Build"
+"Job": Build"
+```
+
+Ensure the Run jobs when previous stage is complete radio button is selected.
+
+
+- Select the **JOBS** tab
+
+- Click **Add Job** and select **Deploy** as the job type.
+
+- Select **Cloud Foundry** as the **Deployer type**.
+
+- Select the **appropriate IBM Cloud region**, **organization**, and **space** where application will be **deployed**.
+
 
