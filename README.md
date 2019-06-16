@@ -6,7 +6,7 @@ Practive DevOps using **IBM Cloud Continous Delivery Service**, In this tutorial
 
 **Steps**
 
-1. **Fork/Clone** this github repo by using the following command: `git clone https://github.com/samerfouad/sample-express-app.git`
+1. **Fork/Clone** this github repo by using the following command: `git clone https://github.com/samerfouad/DevOps-practice.git`
 
 2. **Login** to IBM Cloud using the following link: `https://cloud.ibm.com/login`
 
