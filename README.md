@@ -72,7 +72,7 @@ Click the **Add Stage** button.
 
 Name it **Build**.
 
-The options for the INPUT tab should be correct by default, but we’ll list them here for completeness:
+The options for the **INPUT tab** should be correct by default, but we’ll list them here for completeness:
 
 ```javascript
 "Input type": "Git repostory"
