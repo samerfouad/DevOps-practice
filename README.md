@@ -41,11 +41,15 @@ Now, You should see this screen after clicking create
 
 ![Delivery Pipeline](https://user-images.githubusercontent.com/18283745/59562632-42cb6780-902f-11e9-858d-7fbd7903cc55.png)
 
-Click the Add a Tool button on top right corner.
-Search for “Delivery Pipeline”.
-Click the Delivery Pipeline option.
-Name the pipeline and click Create.
-Your toolchain page now should look like this:
+- Click the Add a Tool button on top right corner.
+
+- Search for “Delivery Pipeline”.
+
+- Click the Delivery Pipeline option.
+
+- Name the pipeline and click Create.
+
+- Your toolchain page now should look like this:
 
 
 1. `git clone YOUR_REPO_URL`
