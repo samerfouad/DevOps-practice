@@ -115,4 +115,21 @@ Ensure the Run jobs when previous stage is complete radio button is selected.
 
 - Select the **appropriate IBM Cloud region**, **organization**, and **space** where application will be **deployed**.
 
+- Ensure the **Stop running this stage** if this job **fails** is selected also.
 
+```javascript
+"Deployer type" : "Cloud Foundry"
+"Application name": "sample-express-app"
+```
+
+Select the **ENVIRONMENT PROPERTIES** tab
+
+Add a **new property** with type **text property**. Configure it with the following key-value pair:
+
+```javascript
+"CF_APP": "sample-express-app"
+```
+
+Click Save.
+
+The delivery pipeline should now look like this:
