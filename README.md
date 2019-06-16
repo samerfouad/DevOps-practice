@@ -26,6 +26,17 @@ Create your own custom DevOps toolchain to go from your source code to a running
 
 ![Github](https://user-images.githubusercontent.com/18283745/59562561-604c0180-902e-11e9-8f0e-b9a143234196.png)
 
+Note: If this is the first time using this tool, you will need to authorize IBM Cloud to use your GitHub credentials. Click on Authorize and log into Github.
+
+For the GitHub server option, leave the default GitHub (https://github.com/) value.
+For the Repository type option, choose Existing.
+For the Repository URL option, type in the forked GitHub repo value, for example: https://github.com/samerfouad/DevOps-practice.
+Ensure both the Enable GitHub Issues and Track deployement of code changes options are selected.
+Click the Create Integration button.
+
+![Adding Github](https://user-images.githubusercontent.com/18283745/59562610-e8320b80-902e-11e9-9100-7b54e6fce159.png)
+
+
 1. `git clone YOUR_REPO_URL`
 
 ```javascript
