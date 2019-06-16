@@ -14,9 +14,11 @@ Create your own custom DevOps toolchain to go from your source code to a running
 
 ![DevOps Button](https://user-images.githubusercontent.com/18283745/59562339-ad7aa400-902b-11e9-845f-eaef328df35e.png)
 
-- Click on the blue button - **Create a Toolchain**
+- Click on the blue button - **Create a Toolchain Button**
 
 ![Create a Toolchain Button](https://user-images.githubusercontent.com/18283745/59562340-afdcfe00-902b-11e9-8062-ec5a43c216fe.png)
+
+- Click on the blue button - **Add a Tool**
 
 ![Add a Tool Button](https://user-images.githubusercontent.com/18283745/59562510-e9af0400-902d-11e9-8a6f-11fc266c3b96.png)
 
