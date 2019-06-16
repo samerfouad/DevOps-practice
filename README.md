@@ -36,6 +36,8 @@ Click the Create Integration button.
 
 ![Adding Github](https://user-images.githubusercontent.com/18283745/59562610-e8320b80-902e-11e9-9100-7b54e6fce159.png)
 
+You should see this screen after clicking create
+
 
 1. `git clone YOUR_REPO_URL`
 
