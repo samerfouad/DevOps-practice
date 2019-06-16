@@ -67,9 +67,12 @@ The options for the INPUT tab should be correct by default, but we’ll list the
 
 ![Delivery Pipeline stages](https://user-images.githubusercontent.com/18283745/59562699-23810a00-9030-11e9-848f-679b79f3fc03.png)
 
+Add a Build stage
+Click the Add Stage button.
 
+Name it Build.
 
-1. `git clone YOUR_REPO_URL`
+The options for the INPUT tab should be correct by default, but we’ll list them here for completeness:
 
 ```javascript
 "Input type": "Git repostory"
