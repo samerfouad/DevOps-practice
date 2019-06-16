@@ -136,3 +136,5 @@ The delivery pipeline should now look like this:
 
 ![Delivery Pipeline stages](https://user-images.githubusercontent.com/18283745/59563052-1f0b2000-9035-11e9-9a7c-ae2e1bbdb95a.png)
 
+Click the **Play button** on the Build stage to **manually trigger a build** and **watch pipeline automatically** start the **Deploy** stage. After the Deploy stage is completed successfully, you can return to your dashboard and see your application under **The Cloud Foundry apps heading**.
+
