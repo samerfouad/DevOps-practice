@@ -10,7 +10,7 @@ Create your own custom DevOps toolchain to go from your source code to a running
 
 2. Login to IBM Cloud using the following link: `https://cloud.ibm.com/login`
 
-- From the left side menu scroll down to the DevOps.
+- From the left side menu scroll down to the DevOps section.
 
 ![DevOps Button](https://user-images.githubusercontent.com/18283745/59562339-ad7aa400-902b-11e9-845f-eaef328df35e.png)
 
