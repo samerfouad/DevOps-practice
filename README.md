@@ -1,16 +1,16 @@
-# Sample Express DevOps App
+# Create your own custom DevOps toolchain to go from your source code to a running application in a minutes.
 
-Practive DevOps using IBM Cloud continous delivery service, Build and Deploy cloud foundry applications with DevOps service.
+Practive DevOps using **IBM Cloud Continous Delivery Service**, In this tutorial we will **Build** and **Deploy** cloud foundry applications to IBM Cloud using its DevOps service.
 
-Create your own custom DevOps toolchain to go from your source code to a running application in a minutes.
+
 
 **Steps**
 
-1. Fork/Clone this github repo by using the following command: `git clone https://github.com/samerfouad/sample-express-app.git`
+1. **Fork/Clone** this github repo by using the following command: `git clone https://github.com/samerfouad/sample-express-app.git`
 
-2. Login to IBM Cloud using the following link: `https://cloud.ibm.com/login`
+2. **Login** to IBM Cloud using the following link: `https://cloud.ibm.com/login`
 
-- From the left side menu scroll down to the DevOps section.
+- From the left side menu scroll down to the **DevOps section**.
 
 ![DevOps Button](https://user-images.githubusercontent.com/18283745/59562339-ad7aa400-902b-11e9-845f-eaef328df35e.png)
 
@@ -28,11 +28,11 @@ Create your own custom DevOps toolchain to go from your source code to a running
 
 Note: If this is the first time using this tool, you will need to authorize IBM Cloud to use your GitHub credentials. Click on Authorize and log into Github.
 
-For the GitHub server option, leave the default GitHub (https://github.com/) value.
-For the Repository type option, choose Existing.
-For the Repository URL option, type in the forked GitHub repo value, for example: https://github.com/samerfouad/DevOps-practice.
-Ensure both the Enable GitHub Issues and Track deployement of code changes options are selected.
-Click the Create Integration button.
+For the **GitHub server option**, leave the default GitHub (https://github.com/) value.
+For the Repository type option, choose **Existing**.
+For the Repository URL option, type in the **forked GitHub repo** value, for example: https://github.com/samerfouad/DevOps-practice.
+Ensure both the **Enable GitHub Issues and Track deployement of code changes options are selected**.
+Click the **Create Integration** button.
 
 ![Adding Github](https://user-images.githubusercontent.com/18283745/59562610-e8320b80-902e-11e9-9100-7b54e6fce159.png)
 
@@ -41,34 +41,35 @@ Now, You should see this screen after clicking create
 
 ![Delivery Pipeline](https://user-images.githubusercontent.com/18283745/59562632-42cb6780-902f-11e9-858d-7fbd7903cc55.png)
 
-Add a Build stage.
+Add a **Build stage**.
 
-Click the Add Stage button.
+Click the **Add Stage button**.
 
-Name it Build.
+Name it **Build**.
 
 The options for the INPUT tab should be correct by default, but we’ll list them here for completeness:
 
 
-- Click the Add a Tool button on top right corner.
+- Click the **Add a Tool** button on top right corner.
 
-- Search for “Delivery Pipeline”.
+- Search for “**Delivery Pipeline**”.
 
-- Click the Delivery Pipeline option.
+- Click the **Delivery Pipeline option**.
 
-- Name the pipeline and click Create.
+- Name the pipeline and click **Create**.
 
 - Your toolchain page now should look like this.
 
 ![Delivery Pipeline stages](https://user-images.githubusercontent.com/18283745/59562699-23810a00-9030-11e9-848f-679b79f3fc03.png
 )
-- We’ll be adding two stages: a “Build” stage and a “Deploy” stage.
-- It is while configuring these stages that we’ll be referencing the application code, the repository we forked earlier, to build and deploy.
+- We’ll be adding **two stages**: a “**Build**” stage and a “**Deploy**” stage.
+- It is while configuring these stages that we’ll be referencing the application code, the repository we forked earlier, to **build** and **deploy**.
 
-Add a Build stage
-Click the Add Stage button.
+**Add a Build stage**
 
-Name it Build.
+Click the **Add Stage** button.
+
+Name it **Build**.
 
 The options for the INPUT tab should be correct by default, but we’ll list them here for completeness:
 
@@ -77,5 +78,23 @@ The options for the INPUT tab should be correct by default, but we’ll list the
 "Git repository": "DevOps-practice"
 "Branch": "master"
 ```
+- Ensure the Run jobs whenever a change is pushed to **Git** radio button is selected.
+
+- Select the JOBS tab.
+
+- Click Add Job and select Build as the job type.
+
+- Select Simple as the Builder type.
+
+- Ensure the Stop running this stage if this job fails is selected as well.
+
+- Click Save.
+
+**Add a Deploy stage**
+
+Click the Add Stage button.
+Name it Deploy.
+
+The options for the INPUT tab should be correct by default, but we’ll list them here for completeness:
 
 
