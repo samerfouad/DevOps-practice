@@ -79,22 +79,22 @@ The options for the INPUT tab should be correct by default, but we’ll list the
 "Git repository": "DevOps-practice"
 "Branch": "master"
 ```
-- Ensure the Run jobs whenever a change is pushed to **Git** radio button is selected.
+- Ensure **the Run jobs whenever a change is pushed** to Git radio button is selected.
 
-- Select the JOBS tab.
+- Select the **JOBS** tab.
 
-- Click Add Job and select Build as the job type.
+- Click **Add Job** and select **Build** as the job type.
 
-- Select Simple as the Builder type.
+- Select **Simple** as the **Builder type**.
 
-- Ensure the Stop running this stage if this job fails is selected as well.
+- Ensure the **Stop running this stage** if this job fails is **selected** as well.
 
-- Click Save.
+- Click **Save**.
 
 **Add a Deploy stage**
 
-Click the Add Stage button.
-Name it Deploy.
+Click the **Add Stage** button.
+Name it **Deploy**.
 
 The options for the INPUT tab should be correct by default, but we’ll list them here for completeness:
 
@@ -104,7 +104,7 @@ The options for the INPUT tab should be correct by default, but we’ll list the
 "Job": Build"
 ```
 
-Ensure the Run jobs when previous stage is complete radio button is selected.
+Ensure the **Run jobs when previous stage is complete** radio button is selected.
 
 
 - Select the **JOBS** tab
@@ -119,7 +119,7 @@ Ensure the Run jobs when previous stage is complete radio button is selected.
 
 ```javascript
 "Deployer type" : "Cloud Foundry"
-"Application name": "sample-express-app"
+"Application name": "DevOps-practice"
 ```
 
 Select the **ENVIRONMENT PROPERTIES** tab
@@ -127,14 +127,14 @@ Select the **ENVIRONMENT PROPERTIES** tab
 Add a **new property** with type **text property**. Configure it with the following key-value pair:
 
 ```javascript
-"CF_APP": "sample-express-app"
+"CF_APP": "DevOps-practice"
 ```
 
-Click Save.
+Click **Save**.
 
 The delivery pipeline should now look like this:
 
 ![Delivery Pipeline stages](https://user-images.githubusercontent.com/18283745/59563052-1f0b2000-9035-11e9-9a7c-ae2e1bbdb95a.png)
 
-Click the **Play button** on the Build stage to **manually trigger a build** and **watch pipeline automatically** start the **Deploy** stage. After the Deploy stage is completed successfully, you can return to your dashboard and see your application under **The Cloud Foundry apps heading**.
+Click the **Play button** on the **Build** stage to **manually trigger a build** and **watch pipeline automatically** start the **Deploy** stage. After the **Deploy** stage is completed successfully, you can return to your dashboard and see your application under **The Cloud Foundry apps heading**.
 
