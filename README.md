@@ -133,3 +133,6 @@ Add a **new property** with type **text property**. Configure it with the follow
 Click Save.
 
 The delivery pipeline should now look like this:
+
+![Delivery Pipeline stages](https://user-images.githubusercontent.com/18283745/59563052-1f0b2000-9035-11e9-9a7c-ae2e1bbdb95a.png)
+
