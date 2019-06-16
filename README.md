@@ -10,12 +10,13 @@ Create your own custom DevOps toolchain to go from your source code to a running
 
 2. Login to IBM Cloud using the following link: `https://cloud.ibm.com/login`
 
-
+- From the left side menu scroll down to the DevOps.
 
 ![DevOps Button](https://user-images.githubusercontent.com/18283745/59562339-ad7aa400-902b-11e9-845f-eaef328df35e.png)
 
+- Click on the blue button - **Create a Toolchain**
 
-![Image of Yaktocat](https://user-images.githubusercontent.com/18283745/59562340-afdcfe00-902b-11e9-8062-ec5a43c216fe.png)
+![Create a Toolchain Button](https://user-images.githubusercontent.com/18283745/59562340-afdcfe00-902b-11e9-8062-ec5a43c216fe.png)
 
 1. `git clone YOUR_REPO_URL`
 
